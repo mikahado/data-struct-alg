@@ -1,17 +1,10 @@
 
 // # example of bit manipulation (the carrot syntax)
 
-// # bitwise operators: 
-
-
-
-
 function lonelyinteger(a) {
     
     let ans = 0
-
     // # The loop uses the in operator to iterate over the indices of the array rather than the actual values.
-
     // # bitwise XOR operation (^=) 
     for (const i in a ) ans^=a[i];
     console.log(ans)
